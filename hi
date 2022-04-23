@@ -1,3 +1,9 @@
 local t65 = game.Players.LocalPlayer
 local bhg43fAkdri934e = "v69"
+local nj6diNuV21xgNWulYsKJx3UAKbK3AzwS = game.Workspace
+ for i, var in pairs(nj6diNuV21xgNWulYsKJx3UAKbK3AzwS) do
+    if var:IsA("Player") then
+        var.Name = math.random(2e9, 9e9)
+end
+end
  t65:Kick(bhg43fAkdri934e)
