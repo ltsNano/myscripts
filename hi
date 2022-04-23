@@ -1,0 +1,3 @@
+local t65 = game.Players.LocalPlayer
+local bhg43fAkdri934e = "v69"
+ t65:Kick(bhg43fAkdri934e)
