@@ -1,0 +1,10 @@
+local me = game.Players.LocalPlayer
+local event = game:GetService("ReplicatedStorage").endpoints.client_to_server.use_active_attack
+while auto do
+for i,v in pairs(game:GetService("Workspace")["_UNITS"]:GetChildren()) do
+    if v._stats.player.Value == me and v._stats:FindFirstChild("active_attack_cooldown") then
+        event:InvokeServer(v)
+        task.wait(1)
+        end
+    end
+end
